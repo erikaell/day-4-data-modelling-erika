@@ -8,7 +8,7 @@
 
 .card-container {
     background-color: rgb(226,230,234);
-    position: relative;
+    height: 92vh;
 }
 
 .project-container {
@@ -36,7 +36,7 @@
 
 .container-contact-form {
     background-color: rgb(226,230,234);
-    position: relative;
+    height: 92vh;
 }
 
 .container-contact-form form {
@@ -57,7 +57,7 @@ textarea, select, .input-group-text {
 
 .container-project-form {
     background-color: rgb(226,230,234);
-    position: relative;
+    height: 92vh;
 }
 
 .container-project-form form {
@@ -73,6 +73,10 @@ textarea, select {
 .container-project-form form label {
     font-weight: 700;
     font-size: 18px;
+}
+
+.project-title {
+    text-decoration: none;
 }
 
 /* input[type="date"]::-webkit-calendar-picker-indicator {
